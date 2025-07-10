@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="report-title"></h1>
+    <div id="report-meta" class="meta"></div>
+    <div id="kpi-section" class="kpi-grid"></div>
+    <div class="charts-row">
+      <canvas id="devicePie" width="350" height="250"></canvas>
+      <canvas id="visitorPie" width="350" height="250"></canvas>
+    </div>
+    <div class="charts-row">
+      <canvas id="activitiesBar" width="700" height="350"></canvas>
+    </div>
+    <div id="success-metrics"></div>
+    <div id="recommendations"></div>
+    <div id="insights"></div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html> 
